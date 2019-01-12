@@ -1,0 +1,27 @@
+.slider_four_in_line div {
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9729/Untitled.png), auto;
+    
+}
+
+/* .upperContainer {
+    text-align: center;
+    width: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    height: 400px;
+    border-style: solid;
+
+} */
+
+.upperContainer {
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    height: 400px;
+    border-style: solid;
+}
+
+.clear {
+
+    padding-top: 20px;
+}

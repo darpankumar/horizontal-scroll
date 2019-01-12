@@ -1,0 +1,19 @@
+<div class="upper">
+<div class='upperContainer'>
+
+  <h1>{{currentSource}}</h1>
+</div>
+</div>
+
+<div class="clear"></div>
+<div [ngStyle]="{'text-align' : 'center'}">click on item to select</div>>
+<div class="setWidth">
+<div class="slider slider_four_in_line">
+    <div (click)="clicked('1')">1</div>
+    <div (click)="clicked('2')">2</div>
+    <div (click)="clicked('3')">3</div>
+    <div (click)="clicked('4')">4</div>
+    <div (click)="clicked('5')">5</div>
+    <div (click)="clicked('6')">6</div>
+</div>
+</div>
